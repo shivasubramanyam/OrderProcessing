@@ -2,7 +2,7 @@
 
 namespace OrderProcessing.Services
 {
-    public abstract class CalculateCommissionPaymentBase
+    public abstract class CommissionPaymentBase
     {
         protected void GenerateCommission()
         {

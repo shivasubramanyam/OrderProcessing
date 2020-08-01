@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace OrderProcessing.Services
 {
-    public class PhysicalProductPaymentService : CalculateCommissionPaymentBase, IPaymentService
+    public class PhysicalProductPaymentService : CommissionPaymentBase, IPaymentService
     {
         public string PaymentFor { get; set; }
 
